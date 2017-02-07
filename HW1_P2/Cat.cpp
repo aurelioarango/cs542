@@ -1,15 +1,16 @@
+//include cat header class
 #include "Cat.h"
-#include <iostream>
-using namespace std;
-
+//cat constructor
 Cat::Cat()
 {
   cout<<"Creating Cat"<<endl;
 }
+//cat deconstructor
 Cat::~Cat()
 {
   cout<<"Deleting Cat"<<endl;
 }
+//function speak implmentation
 void Cat::Speak()
 {
   cout<<"Meow"<<endl;
