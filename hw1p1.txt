@@ -1,0 +1,26 @@
+Script started on Tue 07 Feb 2017 02:54:00 PM PST
+]0;(trusty)lyuz@localhost: ~/Workspace/cs542(trusty)lyuz@localhost:~/Workspace/cs542$ cd HW1_p[KP1
+bash: cd: HW1_P1: No such file or directory
+]0;(trusty)lyuz@localhost: ~/Workspace/cs542(trusty)lyuz@localhost:~/Workspace/cs542$ ls
+[0m[01;34mHW1[0m  [01;34mHW1_J[0m  hw1p1.txt  README.md
+]0;(trusty)lyuz@localhost: ~/Workspace/cs542(trusty)lyuz@localhost:~/Workspace/cs542$ cd HW1
+]0;(trusty)lyuz@localhost: ~/Workspace/cs542/HW1(trusty)lyuz@localhost:~/Workspace/cs542/HW1$ cd HW1_P1
+]0;(trusty)lyuz@localhost: ~/Workspace/cs542/HW1/HW1_P1(trusty)lyuz@localhost:~/Workspace/cs542/HW1/HW1_P1$ make
+make: Nothing to be done for `all'.
+]0;(trusty)lyuz@localhost: ~/Workspace/cs542/HW1/HW1_P1(trusty)lyuz@localhost:~/Workspace/cs542/HW1/HW1_P1$ ./out[K[K[Kclient.out 
+Creating Animal
+Creating Dog
+Creating Animal
+Creating Cat
+Creating Animal
+Creating Dog
+Bow wow
+Jumping
+Meow
+Jumping
+Bow wow
+Jumping
+]0;(trusty)lyuz@localhost: ~/Workspace/cs542/HW1/HW1_P1(trusty)lyuz@localhost:~/Workspace/cs542/HW1/HW1_P1$ exit
+exit
+
+Script done on Tue 07 Feb 2017 02:54:57 PM PST

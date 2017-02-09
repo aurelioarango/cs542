@@ -1,0 +1,18 @@
+Script started on Tue 07 Feb 2017 02:55:17 PM PST
+]0;(trusty)lyuz@localhost: ~/Workspace/cs542(trusty)lyuz@localhost:~/Workspace/cs542$ cd HW1
+]0;(trusty)lyuz@localhost: ~/Workspace/cs542/HW1(trusty)lyuz@localhost:~/Workspace/cs542/HW1$ cd HW1_P2
+]0;(trusty)lyuz@localhost: ~/Workspace/cs542/HW1/HW1_P2(trusty)lyuz@localhost:~/Workspace/cs542/HW1/HW1_P2$ make
+g++    -c -o client.o client.cpp
+g++  -c -g -Wall  client.cpp Cat.cpp Dog.cpp 
+g++  -g -Wall  -o client.out  client.o Cat.o Dog.o   -L.  -lm	
+]0;(trusty)lyuz@localhost: ~/Workspace/cs542/HW1/HW1_P2(trusty)lyuz@localhost:~/Workspace/cs542/HW1/HW1_P2$ make[K[K[K[K./client.out 
+Creating Dog
+Creating Cat
+Creating Dog
+Bow wow
+Meow
+Bow wow
+]0;(trusty)lyuz@localhost: ~/Workspace/cs542/HW1/HW1_P2(trusty)lyuz@localhost:~/Workspace/cs542/HW1/HW1_P2$ exit
+exit
+
+Script done on Tue 07 Feb 2017 02:55:51 PM PST

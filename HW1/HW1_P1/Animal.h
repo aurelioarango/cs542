@@ -13,7 +13,7 @@ class Animal
     //Animal constructor
     Animal();
     //Animal destructor
-    ~Animal();
+    virtual ~Animal();
     //virtual function Speak
     virtual void Speak();
     //jump function

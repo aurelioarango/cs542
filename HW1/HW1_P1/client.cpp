@@ -21,5 +21,10 @@ int main()
     animals[i]->Jump();
   }
 
+  for(int i=0; i<3; i++)
+  {
+    //calling destructor
+    delete animals[i];
+  }
   return 0;
 }
