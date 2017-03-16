@@ -1,6 +1,7 @@
 #include <iostream>
 
 using namespace std;
+
 class ExecuteInterface {
   public:
     // 1. Specify the new interface
@@ -80,7 +81,7 @@ int main() {
   for (int i = 0; i < 3; i++) {
    objects[i]->execute();
   }
- 
+
   // 3. Client uses the new (polymporphism)
   for (int i = 0; i < 3; i++) {
     delete objects[i];
